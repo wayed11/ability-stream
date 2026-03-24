@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pnpm --filter @workspace/ability-stream run build",
+  "outputDirectory": "artifacts/ability-stream/dist/public",
+  "installCommand": "pnpm install",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
